@@ -1,4 +1,4 @@
 Dname=com.mysql.jdbc.Driver
 URL=jdbc:mysql://localhost:3306/db
 Uname=db_android
-password=android
+password=testdb

@@ -8,29 +8,26 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>BookNow</title>
+    <title>weather</title>
   </head>
   <body>
   <div>
-    <h1>BookNow</h1>
-    <form action="product" method="post">
+    <h1>weather</h1>
+    <form action="weather" method="post">
       <p>
-        productname <input type="String" name="productname" required />
+        temperature <input type="String" name="temperature" required />
       </p>
       <p>
-        price <input type="number" name="price" required />
+        location <input type="String" name="location" required />
       </p>
       <p>
-        quantity <input type="number" name="quantity" required />
-      </p>
-      <p>
-        unit <input type="String" name="unit" required />
+        weatherdate <input type="String" name="weatherdate" required />
       </p>
       <p>
         <input type="submit" value="RUN" />
       </p>
     </form>
-    <form action="product" method="get">
+    <form action="weather" method="get">
       <p>
         <input type="submit" value="show" />
       </p>

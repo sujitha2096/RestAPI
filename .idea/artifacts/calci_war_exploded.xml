@@ -2,10 +2,10 @@
   <artifact type="exploded-war" name="calci:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/calci_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="BookNow/web/Web" />
+      <element id="javaee-facet-resources" facet="RestAPI/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="BookNow" />
+          <element id="module-output" name="RestAPI" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.40" />
